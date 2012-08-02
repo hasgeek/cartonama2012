@@ -1,0 +1,22 @@
+{
+	"application": "eventframe",
+	"identifier": "cartonama",
+	"name": "Cartonama",
+	"author": "HasGeek",
+	"description": "Default empty theme for Eventframe websites.",
+	"license": "BSD",
+	"doctype": "html5",
+	"options": {
+        "assets_css": [
+            "js/leaflet/leaflet.css",
+            "css/app.css"
+        ],
+        "assets_js": [
+            "js/jquery.smooth-scroll.min.js",
+            "js/jquery.twitter.js",
+            "js/leaflet/leaflet.js",
+            "js/app.js"
+        ]
+    }
+
+}
