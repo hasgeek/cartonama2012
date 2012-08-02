@@ -1,0 +1,47 @@
+{% from "baseframe/components.html" import networkbar with context -%}
+{% extends "eventframe.html" -%}
+
+{% block headerbox %}
+<header class="header top-cont">
+  {{ networkbar(siteid='events', login=true,  baseclass='hg-dark') }}
+  <div class="container cartonama-banner" id="page-header">
+    <div class="row">
+      <div class="span4"><img src="{{ theme_static('img/hg-logo.png') }}"></div>
+      <div class="span8">...</div>
+    </div>
+    <div class="row">
+      <div class="span8"><img src="{{ theme_static('img/cartonama-logo.png') }}"></div>
+      <div class="span4 button-bar">
+        <a href="#proposals" class="btn btn-large btn-info">Proposals</a>
+        <a href="#venue" class="btn btn-large btn-info">Venue</a>
+        <a href="#" class="btn btn-large btn-danger">Buy Tickets</a>
+      </div>
+    </div>
+  </div>
+</header>
+{% endblock %}
+
+{% block baseheadline -%}
+  {% block headline -%}
+    <div class="page-header">
+      <h2>{{ self.title() }}</h2>
+    </div>
+  {%- endblock %}
+{%- endblock %}
+
+{% block basecontent -%}
+  {% block content %}{% endblock %}
+{%- endblock %}
+
+{% block basefooter -%}
+  <footer>
+    <div class="footer-inner">
+      <div class="container">
+        <div class="footer-bar"></div>
+        {% block footer -%}
+          <span>The Fifth Elephant is a conference by <a href="http://hasgeek.com/">HasGeek</a>. Copyright &copy; 2010-12. All rights reserved.</span>
+        {%- endblock %}
+      </div>
+    </div>
+  </footer>
+{%- endblock %}

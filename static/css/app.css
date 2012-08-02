@@ -1,0 +1,26 @@
+.top-cont {
+  background: url('../img/web-bg.png?1343917641');
+}
+
+.cartonama-banner {
+  padding-top: 1em;
+}
+
+.button-bar {
+  text-align: center;
+}
+.button-bar a {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+h2 {
+  border-bottom: solid 1px #cccccc;
+  text-align: right;
+  color: #181818;
+  font-weight: bold;
+  line-height: 1.25;
+}
