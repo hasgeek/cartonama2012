@@ -1,6 +1,18 @@
 {% from "baseframe/components.html" import networkbar with context -%}
 {% extends "eventframe.html" -%}
 
+{% block main -%}
+    <div class="bottom-cont"><div class="container">
+      {%- block messages %}{{ flash_messages() }}{% endblock %}
+      {% block headline -%}
+        <div class="page-header">
+          <h2>{{ self.title() }}</h2>
+        </div>
+      {%- endblock %}
+      {% block content %}{% endblock %}
+    </div></div>
+{%- endblock %}
+
 {% block headerbox %}
 <header class="header top-cont">
   {{ networkbar(siteid='events', login=true,  baseclass='hg-dark') }}
@@ -20,18 +32,6 @@
   </div>
 </header>
 {% endblock %}
-
-{% block baseheadline -%}
-  {% block headline -%}
-    <div class="page-header">
-      <h2>{{ self.title() }}</h2>
-    </div>
-  {%- endblock %}
-{%- endblock %}
-
-{% block basecontent -%}
-  {% block content %}{% endblock %}
-{%- endblock %}
 
 {% block basefooter -%}
   <footer>
