@@ -1,26 +1,25 @@
 {% extends theme("layout.html") %}
+{% from theme("inc/map_script.html") import mapscript -%}
 {% block titletags -%}
   <title>{% block title %}{{ website.title }}{% endblock %}</title>
   <meta name="DC.title" content="{{ website.title }}"/>
 {%- endblock %}
 
+
 {% block content -%}
+{% include theme("inc/about.html") %}
 {{ node.content }}
-<section id="proposals" class="section">
-	<h2>Blog</h2>
-	<p>Here be blogs</p>
-</section>
+
 <section id="proposals" class="section">
 	<h2>Proposals</h2>
-	<p>funneling ideas here</p>
+	<p>The Funnel is <strong>accepting </strong>proposals. <a href="http://funnel.hasgeek.com/cartonama/">Head there to propose or vote and comment existing proposals.</a></p>
 </section>
 <section id="event-sponsors" class="section">
-	<h2>Sponsors</h2>
-	<p>Corporates showing some map love</p>
+{% include theme("inc/sponsors.html") %}
 </section>
 <section id="venue" class="section">
-	<h2>Venue</h2>
-	<p>This is a mapping event, where's the map!<p>
+{% include theme("inc/venue.html") %}
+
 </section>
 <section id="about-hasgeek" class="section">
 	<h2>About HasGeek</h2>
@@ -32,3 +31,6 @@
 </section>
 {%- endblock %}
 
+{% block footerscripts %}
+{{ mapscript(getnode('2012', 'venue-map')) }}
+{% endblock %}
