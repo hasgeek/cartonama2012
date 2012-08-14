@@ -1,0 +1,98 @@
+{
+    "folder": "2012",
+    "nodes": [
+        {
+            "content": "",
+            "created_at": "2012-08-14T06:09:51.791124Z",
+            "description": "",
+            "is_published": false,
+            "name": "",
+            "properties": {},
+            "published_at": "2012-08-14T06:09:51.791264Z",
+            "revision_created_at": "2012-08-14T06:19:34.294119Z",
+            "revision_updated_at": "2012-08-14T06:19:34.294125Z",
+            "template": "index.html",
+            "title": "Cartonama",
+            "type": "page",
+            "updated_at": "2012-08-14T06:10:09.490121Z",
+            "userid": "Wx2F_4ipRxWVQwSTqmIIgQ",
+            "uuid": "2sgIhDVhRoGzS2nQn4VnOw"
+        },
+        {
+            "content": "<p>The event has to happen somewhere</p>",
+            "created_at": "2012-08-14T06:48:42.029480Z",
+            "description": "",
+            "is_published": false,
+            "name": "venue-blurb",
+            "properties": {},
+            "published_at": "2012-08-14T06:48:42.029648Z",
+            "revision_created_at": "2012-08-14T08:16:37.700828Z",
+            "revision_updated_at": "2012-08-14T08:16:37.700837Z",
+            "template": "",
+            "title": "MLR Convention Center JP Nagar",
+            "type": "fragment",
+            "updated_at": "2012-08-14T08:16:37.699113Z",
+            "userid": "Wx2F_4ipRxWVQwSTqmIIgQ",
+            "uuid": "GGz2Mw_PR8ibMjO34WyxXQ"
+        },
+        {
+            "created_at": "2012-08-14T06:56:43.763477Z",
+            "items": [
+                {
+                    "latitude": 12.9431,
+                    "longitude": 77.5969,
+                    "marker": null,
+                    "name": "nimhans",
+                    "title": "Nimhans Convention Centre",
+                    "url": null,
+                    "zoomlevel": 13
+                },
+                {
+                    "latitude": 12.9647,
+                    "longitude": 77.6375,
+                    "marker": null,
+                    "name": "cis",
+                    "title": "Centre for Internet and Society",
+                    "url": "http://www.cis-india.org/",
+                    "zoomlevel": 15
+                },
+                {
+                    "latitude": 12.9636,
+                    "longitude": 77.6380,
+                    "marker": null,
+                    "name": "teri",
+                    "title": "The Energy & Resources Institute",
+                    "url": null,
+                    "zoomlevel": 15
+                },
+                {
+                    "latitude": 18.5388,
+                    "longitude": 73.8293,
+                    "marker": null,
+                    "name": "amiworks",
+                    "title": "AmiWorks",
+                    "url": null,
+                    "zoomlevel": 12
+                },
+                {
+                    "latitude": 13.0685,
+                    "longitude": 80.2571,
+                    "marker": null,
+                    "name": "startupcentre",
+                    "title": "The Startup Centre",
+                    "url": "http://thestartupcentre.com/",
+                    "zoomlevel": 15
+                }
+            ],
+            "name": "venue-map",
+            "properties": {},
+            "published_at": "2012-08-14T06:56:43.763645Z",
+            "title": "Venue Map",
+            "type": "map",
+            "updated_at": "2012-08-14T06:56:43.761727Z",
+            "userid": "Wx2F_4ipRxWVQwSTqmIIgQ",
+            "uuid": "BXUQc8IgTxGhiyCR96XRVA"
+        }
+    ],
+    "website": "cartonama"
+}
