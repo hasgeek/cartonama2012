@@ -1,9 +1,11 @@
 <section id="venue" class="section">
   <h2>Venue</h2>
   {% with f = fragment('2012', 'venue-blurb') %}
-      <p>{{ f.content }}</p>
+      
       <div class="row">
-        <div class="span3">{{ f.title }}</div>
+        <div class="span3"><h4>{{ f.title }}</h4>
+	        {{ f.content }}
+	    </div>
         <div class="span9"><div id="map" class="map"></div></div>
       </div>
   {% endwith %}

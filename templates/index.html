@@ -7,17 +7,19 @@
 
 {% block content -%}
 {{ node.content }}
+<section id="about" class="section" >
+	{% include theme("inc/about.html") %}
+</section>
 <section id="proposals" class="section">
 	<h2>Blog</h2>
 	<p>Here be blogs</p>
 </section>
 <section id="proposals" class="section">
 	<h2>Proposals</h2>
-	<p>funneling ideas here</p>
+	 <p>The Funnel is <strong>accepting </strong>proposals. <a href="http://funnel.hasgeek.com/cartonama/">Head there to propose or vote and comment existing proposals.</a></p>
 </section>
 <section id="event-sponsors" class="section">
-	<h2>Sponsors</h2>
-	<p>Corporates showing some map love</p>
+	{% include theme("inc/sponsors.html") %}
 </section>
 
 	{% include theme("inc/venue.html") %}
