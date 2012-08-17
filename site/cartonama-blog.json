@@ -1,0 +1,40 @@
+{
+    "folder": "blog",
+    "nodes": [
+        {
+            "content": "<p>Cartonama blog.</p>",
+            "created_at": "2012-08-17T05:58:38.314767Z",
+            "description": "",
+            "is_published": false,
+            "name": "",
+            "properties": {},
+            "published_at": "2012-08-17T05:58:38.315285Z",
+            "revision_created_at": "2012-08-17T05:58:47.806229Z",
+            "revision_updated_at": "2012-08-17T05:58:47.806253Z",
+            "template": "blog.html",
+            "title": "Cartonama",
+            "type": "page",
+            "updated_at": "2012-08-17T05:58:47.809359Z",
+            "userid": "o3sa_G46Q9WOR4x6whFyZw",
+            "uuid": "erQV0BQwTHycXJO9xnA_Aw"
+        },
+        {
+            "content": "<p>The Economist Intelligence Unit and Capgemini conducted a survey of executives across the globe and supplemented the data from that survey with a series of interviews of senior business executives and experts on decision making and data.</p>\n<p>The results are available to all in a report titled\u00a0<a href=\"http://www.managementthinking.eiu.com/deciding-factor.html\" target=\"_blank\" title=\"The Deciding Factor\">The deciding factor: Big Data and decision-making</a>.</p>\n<p>Some of the findings of the report include:</p>\n<p></p>\n<ul>\n<li>Firms that emphasise decision-making based on data and analytics have performed 5 to 6% better\u2014as measured by output and performance\u2014than firms that rely on intuition and experience for decision-making.</li>\n<li>There is a growing appetite among organisations for data and data-driven decisions, despite their struggles with the enormous volumes being generated.</li>\n<li>43% of respondents agree that using social media to make decisions is increasingly important.</li>\n</ul>\n<p>Visit the <a href=\"http://www.managementthinking.eiu.com/deciding-factor.html\" target=\"_blank\">EIU's website</a> to download the full report.</p>",
+            "created_at": "2012-08-17T05:59:54.505867Z",
+            "description": "The Economist Intelligence Unit and Capgemini have a report on how organisations are seeking to use data to make better business decisions.",
+            "is_published": false,
+            "name": "big-data-and-decision-making-a-free-report",
+            "properties": {},
+            "published_at": "2012-08-17T05:59:54.522570Z",
+            "revision_created_at": "2012-08-17T05:59:54.504075Z",
+            "revision_updated_at": "2012-08-17T05:59:54.504097Z",
+            "template": "post.html",
+            "title": "Big Data and Decision Making - A free report",
+            "type": "post",
+            "updated_at": "2012-08-17T05:59:54.505889Z",
+            "userid": "o3sa_G46Q9WOR4x6whFyZw",
+            "uuid": "4CT4RgAzRdikJrFEF1z8jA"
+        }
+    ],
+    "website": "cartonama"
+}
