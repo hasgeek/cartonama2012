@@ -36,4 +36,17 @@
 
 {% block footerscripts %}
 {{ mapscript(getnode('2012', 'venue-map')) }}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#twitter").getTwitter({
+      userName: "cartonama",
+      numTweets: 5,
+      loaderText: "Loading tweets...",
+      slideIn: true,
+      showHeading: false,
+      headingText: "Latest Tweets",
+      showProfileLink: false
+    });
+  });
+</script>
 {% endblock %}

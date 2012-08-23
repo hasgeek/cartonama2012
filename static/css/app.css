@@ -1,5 +1,5 @@
 .top-cont {
-  background: url('../img/web-bg.png?1344925915');
+  background: url('../img/web-bg.png?1345031839');
   margin-bottom: 0px;
 }
 
@@ -54,4 +54,13 @@ h2 {
   overflow: hidden;
   margin: 0 0 3 0;
   padding: 0;
+}
+
+ul.twitter_update_list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.twitter_id {
+  font-weight: bold;
 }
