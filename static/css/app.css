@@ -1,5 +1,5 @@
 .top-cont {
-  background: url('../img/web-bg.png?1344410807');
+  background: url('../img/web-bg.png?1345031839');
   margin-bottom: 0px;
 }
 
@@ -24,14 +24,12 @@ h2 {
   color: #181818;
   font-weight: bold;
   line-height: 1.25;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-h3 {
-  border-bottom: solid 1px #cccccc;
-  text-align: left;
-  color: black;
-  font-weight: bold;
-  line-height: 1.25;
+h3, h3 a, h3 a.visited {
+  color: black !important;
 }
 
 .bottom-cont {
