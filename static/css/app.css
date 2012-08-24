@@ -1,3 +1,7 @@
+header #page-header {
+  border-bottom: none;
+}
+
 .top-cont {
   background: url('../img/web-bg.png?1345031839');
   margin-bottom: 0px;
@@ -28,8 +32,8 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-h3, h3 a, h3 a.visited {
-  color: black !important;
+h3, h3 a, h3 a:visited, h3 a:hover {
+  color: black;
 }
 
 p {
