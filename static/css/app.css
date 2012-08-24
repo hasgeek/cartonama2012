@@ -32,6 +32,10 @@ h3, h3 a, h3 a.visited {
   color: black !important;
 }
 
+p {
+  font-family: "skolar", serif;
+}
+
 .bottom-cont {
   background: #c4c4c4;
   background: -moz-linear-gradient(top, #c4c4c4 0%, white 18%, white 100%);
