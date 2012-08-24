@@ -139,6 +139,23 @@
             "uuid": "gRXyQkhsR6uP0ypcDSnPsA"
         },
         {
+            "content": "",
+            "created_at": "2012-08-24T11:27:44.631196Z",
+            "description": "",
+            "is_published": false,
+            "name": "register",
+            "properties": {},
+            "published_at": "2012-08-24T11:27:44.631333Z",
+            "revision_created_at": "2012-08-24T11:28:25.315739Z",
+            "revision_updated_at": "2012-08-24T11:28:25.315746Z",
+            "template": "register.html",
+            "title": "Register for event",
+            "type": "page",
+            "updated_at": "2012-08-24T11:28:25.316354Z",
+            "userid": "Wx2F_4ipRxWVQwSTqmIIgQ",
+            "uuid": "DpWcdPLzQ-maQE2VJCqkrQ"
+        },
+        {
             "content": "<p>Brigade Millennium<br> 7th Phase J.P. Nagar <br> Bangalore, Karnataka<br> India</p>",
             "created_at": "2012-08-15T12:04:27.861340Z",
             "description": "",
