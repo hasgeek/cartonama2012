@@ -2,15 +2,15 @@
     "folder": "2012",
     "nodes": [
         {
-            "content": "",
+            "content": "<p>Cartonama is a conference about mapping for people who love mapping by people who have used maps before.</p>",
             "created_at": "2012-08-15T12:04:27.857904Z",
             "description": "",
             "is_published": false,
             "name": "",
             "properties": {},
             "published_at": "2012-08-13T07:21:38.861448Z",
-            "revision_created_at": "2012-08-15T12:04:27.866651Z",
-            "revision_updated_at": "2012-08-15T12:04:27.866660Z",
+            "revision_created_at": "2012-08-24T10:15:55.254470Z",
+            "revision_updated_at": "2012-08-24T10:15:55.254480Z",
             "template": "index.html",
             "title": "Cartonama",
             "type": "page",
