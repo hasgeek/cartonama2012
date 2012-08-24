@@ -9,7 +9,7 @@
   {{ node.content }}
 </div>
 <div class="row blog">
-  <div class="span7">
+  <div class="span12">
     {% for post in feed() -%}
       <h3>
         <a href="{{ url_for('node', folder=post.folder.name, node=post.name) }}">{{ post.title }}</a>
