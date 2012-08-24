@@ -8,7 +8,7 @@
       {%- with proposals_blurb = fragment('2012', 'proposals-blurb') %}
         <div class="span4 box push-right">
           {{ proposals_blurb.content }}
-          <p><a class="btn btn-success btn-wide" href="{{ url_for('node', folder=folder.name, node='proposals') }}">View session proposals</a></p>
+          <p style="text-align:center"><a class="btn btn-success btn-wide" href="{{ url_for('node', folder=folder.name, node='proposals') }}">View session proposals</a></p>
         </div>
         <div class="span8">
           {%- with proposals = getnode('2012', 'proposals').proposals() %}

@@ -53,9 +53,7 @@ p {
 }
 
 .bottom-cont p {
-  text-align: justify;
   font-size: medium;
-  padding: 10px;
 }
 
 .map-box {
@@ -77,4 +75,14 @@ ul.twitter_update_list {
 
 .twitter_id {
   font-weight: bold;
+}
+
+.description p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 36px;
+  font-style: italic;
+  color: black;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
