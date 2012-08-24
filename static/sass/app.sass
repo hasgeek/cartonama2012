@@ -1,6 +1,17 @@
 @import "compass"
 
+
+$thick-border-thickness: 6px
+$thick-border-color: black
+$thick-border: $thick-border-thickness solid $thick-border-color
+$thick-border-radius: 4px
+
 $line-height: 24px
+
+// Height: line-height + padding-top + padding-bottom + margin-bottom
+$navbar-height: 19px + 10px + 11px + 22px
+$navbar-height: 46px
+
 
 header #page-header
   border-bottom: none
@@ -77,3 +88,57 @@ ul.twitter_update_list
   color: black
   margin-top: $line-height * 1.5
   margin-bottom: $line-height * 1.5
+
+
+.navbar-margin
+  margin-bottom: $navbar-height
+
+// Navigation bar
+.main-navbar .nav
+  float: none
+  +box-sizing(border-box)
+  +display-box
+  margin-right: 0
+  margin-bottom: 0
+  width: 100%
+  background-color: black
+  border-bottom: $thick-border
+  border-left: $thick-border
+  border-right: $thick-border
+  +border-bottom-left-radius($thick-border-radius)
+  +border-bottom-right-radius($thick-border-radius)
+
+  & > li
+    +inline-block
+    float: none
+    font-size: 20px
+    margin-bottom: 0
+    // background-color: black
+    +display-box
+    +box-flex(1)
+    +box-pack(center)
+    +transition-property("color, background-color")
+    +transition-duration(0.2s)
+
+    & > a
+      display: block
+      text-align: center
+      +box-sizing(border-box)
+      width: 100%
+      color: white
+      padding: 10px 10px 11px
+      line-height: 19px
+      text-decoration: none
+      +transition-property("color, background-color")
+      +transition-duration(0.2s)
+
+    &:hover, &:hover > a
+      color: black
+      background-color: #b3a797
+      text-decoration: none
+      +transition-property("color, background-color")
+      +transition-duration(0.2s)
+
+.navbar-fixed-top .nav
+  & > .register, & > .register a
+    color: yellow
