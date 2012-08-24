@@ -3,7 +3,7 @@
     <div class="description">{{ node.content }}</div>
     <div class="row">
       {% for name in ['about-data', 'about-technology', 'about-applications'] %}
-        <div class="span3">
+        <div class="span4">
           {% with p = fragment('2012', name) %}
             <h3>{{ p.title }}</h3>
             {{ p.content }}
