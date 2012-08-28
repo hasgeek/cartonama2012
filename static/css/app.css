@@ -3,7 +3,7 @@ header #page-header {
 }
 
 .top-cont {
-  background: url('../img/web-bg.png?1345031839');
+  background: url('../img/web-bg.png?1346152794');
   margin-bottom: 0px;
 }
 
@@ -50,6 +50,7 @@ p {
   background: linear-gradient(top, #c4c4c4 0%, #ffffff 18%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4c4c4', endColorstr='#ffffff',GradientType=0 );
   border-top: 10px solid black;
+  padding-top: 36px;
 }
 
 .bottom-cont p {
@@ -83,7 +84,6 @@ ul.twitter_update_list {
   line-height: 36px;
   font-style: italic;
   color: black;
-  margin-top: 36px;
   margin-bottom: 36px;
 }
 
