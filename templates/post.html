@@ -12,6 +12,9 @@
     </div>
     {{ node.content }}
     {#- <p class="author">{{ node.user.fullname }}</p> #}
+    {%- if "youtube_url" in node.properties %}
+      <iframe width="600" height="450" src="{{ node.properties['youtube_url'] }}" frameborder="0" allowfullscreen></iframe>
+    {%- endif %}
   </div>
   {%- if "image" in node.properties or "video" in node.properties %}
     <div class="span5">
