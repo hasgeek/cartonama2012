@@ -54,8 +54,8 @@
       </article>
 
       
-      <article class="open sponsor-community sponsor span2">
-        <p class="logo"></p>
+      <article class="sponsor-community sponsor span2">
+        <p class="logo"><a data-toggle="modal" href="#sponsor-commonfloor"><img alt="CommonFloor" src="{{ theme_static('img/2012/sponsors/sponsor-commonfloor.png') }}"></a></p>
       </article>
       <article class="open empty sponsor-community sponsor span2">
         <p class="logo"></p>
@@ -73,7 +73,19 @@
         <p class="logo"></p>
       </article>      
       
-
+      <div class="modal fade sponsor-box" id="sponsor-commonfloor">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <h3>CommonFloor</h3>
+        </div>
+        <div class="modal-body">
+          {{ fragment('2012', 'sponsor-commonfloor').content }}
+        </div>
+        <div class="modal-footer">
+          <a href="http://techblog.commonfloor.com/" class="btn btn-primary sponsor-exit">Visit CommonFloor's Tech Blog</a>
+          <a data-dismiss="modal" class="btn">Close</a>
+        </div>
+      </div>
       
       </div><!-- /row -->
   </div><!-- /container -->
