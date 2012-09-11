@@ -11,7 +11,7 @@
           <p style="text-align:center"><a class="btn btn-success btn-wide" href="{{ url_for('node', folder=folder.name, node='proposals') }}">View session proposals</a></p>
         </div>
         <div class="span8">
-          {%- with proposals = getnode('2012', 'proposals').proposals() %}
+          {%- with proposals = getnode('2012', 'proposals').confirmed() %}
             <ul id="funnel-preview" class="grid container-fluid">
               <li class="row-fluid header">
                 <div class="span7 funnel-preview-title">{{ proposals_blurb.title }}</div>
