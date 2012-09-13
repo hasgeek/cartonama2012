@@ -253,6 +253,15 @@
                     "title": "MLR Convention Centre",
                     "url": null,
                     "zoomlevel": 13
+                },
+                {
+                    "latitude": 12.9340,
+                    "longitude": 77.6051,
+                    "marker": null,
+                    "name": "dvk",
+                    "title": "Dharmaram Vidya Kshetram",
+                    "url": null,
+                    "zoomlevel": 13
                 }
             ],
             "name": "venue-map",
@@ -260,9 +269,118 @@
             "published_at": "2012-08-13T09:13:52Z",
             "title": "Venue Map",
             "type": "map",
-            "updated_at": "2012-09-12T08:08:44.232208Z",
+            "updated_at": "2012-09-13T09:21:14.183469Z",
             "userid": "o3sa_G46Q9WOR4x6whFyZw",
             "uuid": "Za1nytXITay_7ponvV4GOw"
+        },
+        {
+            "content": "<p>The session aims to introduce geo-simulation that can be undertaken using some free-and-open-source modeling environment and available open-geodata. Some use cases that will be demonstrated are flood, traffic and land-cover change. Methods that make these possible like agent-based modelling and geospatial techniques will be discussed.</p>\n<p><strong>Date:</strong> Sunday, September 23, 2012<br><strong>Time:</strong> 9:30 AM to 12:30 PM<br><strong>Venue:</strong> <a href=\"#map\">Dharmaram College</a>, Christ University Campus, Bangalore.</p>\n<p></p>",
+            "created_at": "2012-09-13T09:28:12.488303Z",
+            "description": "To introduce and explore methods in geo-simulation for modeling varied geographic phenomenon. ",
+            "is_published": true,
+            "name": "workshop-geo-simulation",
+            "properties": {
+                "list": "workshops-list",
+                "map": "venue-map",
+                "mapmarker": "dvk"
+            },
+            "published_at": "2012-09-13T09:30:55.866432Z",
+            "revision_created_at": "2012-09-13T09:32:49.302225Z",
+            "revision_updated_at": "2012-09-13T09:32:49.302251Z",
+            "template": "eventlist.html",
+            "title": "Geo-simulation using open geodata",
+            "type": "page",
+            "updated_at": "2012-09-13T09:30:55.872324Z",
+            "userid": "-P6-BovlQICyQb0dIvZ3vw",
+            "uuid": "k8nPB1tzTmiR7o2kg4X4vQ"
+        },
+        {
+            "content": "<p>GeoCommons.com is an online maps mashup application where anyone can upload datasets and create maps quickly. TileMill is a map design studio which uses the map styling language called Carto. Both of them are important tools to tell stories through maps. The workshop will be a hands-on tour of both these tools while we play around with few datasets to make beautiful maps.</p>\n<p><strong>Date:</strong> Monday, September 24, 2012<br><strong>Time:</strong> 10:00 AM to 12:00 PM<br><strong>Venue:</strong> <a href=\"#map\">Dharmaram College</a>, Christ University Campus, Bangalore.</p>\n<p></p>",
+            "created_at": "2012-09-13T09:52:56.368479Z",
+            "description": "Introduce two major web mapping tools - GeoCommons.com and TileMill. Equip the participants to mashup interesting data to make quick maps and render custom maps using OpenStreetMap data.",
+            "is_published": true,
+            "name": "workshop-geocommons-tilemill",
+            "properties": {
+                "list": "workshops-list",
+                "map": "venue-map",
+                "mapmarker": "dvk"
+            },
+            "published_at": "2012-09-13T09:54:36.998403Z",
+            "revision_created_at": "2012-09-13T09:54:18.083588Z",
+            "revision_updated_at": "2012-09-13T09:54:18.083607Z",
+            "template": "eventlist.html",
+            "title": "GeoCommons and TileMill: Stories through maps.",
+            "type": "page",
+            "updated_at": "2012-09-13T09:54:37.003533Z",
+            "userid": "-P6-BovlQICyQb0dIvZ3vw",
+            "uuid": "CQy6qqooRY2q_grzX7m5Fg"
+        },
+        {
+            "content": "<p>The workshop will cover using the Leaflet mapping library to display a GeoJSON feed on a map. We will cover styling and filtering layers, handling events like mouse-over / click, and finally, editing layers and saving back to the server.</p>\n<p>Aim of the workshop would be for people attending to go out with a clear idea of how to do read/write with mapping data on the web. We start with read (GeoJSON from server -&gt; plain rendering + customization) and then move to write (adding markers/shapes, then serializing them as GeoJSON to get sent to the server for persistance)</p>\n<p>On the back-end, we will cover the basics of setting up a GeoDjango project, defining one's models, and using the GeoDjango ORM to query spatial data, and then output data as GeoJSON. We will cover different geographic field types and basic geo concepts like projection, etc. but not go into too many back-end details. Also, while we will use GeoDjango as the back-end frame-work, attempts will be made to make the concepts as generalized as possible. Familiarity with basic MVC concepts and some experience of working with an ORM would be desirable, but not required.</p>\n<p>We will spend the majority of time on building in-browser tools to display, style and edit GeoJSON data sent from the server. We will cover setting up Leaflet, various in-built controls, the general architecture / conventions used in the library, setting up various map layers, and working with the Leaflet draw plugin to draw and edit features on the map. We will cover adding interactivity to features, like click and mouse-over events, as well as having other controls on the web-page to change the style of objects. We will go through the basic work-flow of editing and drawing features, and serializing them to GeoJSON to send back to the server to save.</p>\n<p><strong>Date:</strong> Sunday, September 23, 2012<br><strong>Time:</strong> 2:00 PM to 5:00 PM<br><strong>Venue:</strong> <a href=\"#map\">Dharmaram College</a>, Christ University Campus, Bangalore.</p>\n<p></p>",
+            "created_at": "2012-09-13T09:06:40.379801Z",
+            "description": "This workshop is aimed at getting people to fully understand the basics of building an end-to-end geo data pipeline - getting data in, storing/representing it, and displaying it in various ways. ",
+            "is_published": true,
+            "name": "workshop-reading-writing-geodata",
+            "properties": {
+                "list": "workshops-list",
+                "map": "venue-map",
+                "mapmarker": "dvk"
+            },
+            "published_at": "2012-09-13T09:06:54.704287Z",
+            "revision_created_at": "2012-09-13T09:27:24.918457Z",
+            "revision_updated_at": "2012-09-13T09:27:24.918479Z",
+            "template": "eventlist.html",
+            "title": "Reading and Writing GeoData on the web",
+            "type": "page",
+            "updated_at": "2012-09-13T09:23:56.257808Z",
+            "userid": "-P6-BovlQICyQb0dIvZ3vw",
+            "uuid": "Key9T8vDSvqnaxIflJKbyg"
+        },
+        {
+            "content": "<ol>\n<li>Open sources for location information associated with structured and semi-structured data Wikipedia, DBPedia, Freebase, Geonames, US Military database etc.</li>\n<li>Tools and methods to process the identified feeds: Google Refine, RDF libraries, custom feed processors</li>\n<li>Building a simple search engine using the data processed above to support the following: Point, range, and neighbourhood searches</li>\n</ol>\n<p>Draws from my experience extracting information from various online sources for building a mobile search engine (zook.in) as well as for building custom search systems at Ideophone.</p>\n<p><strong>Date:</strong> Tuesday, September 25, 2012<br><strong>Time:</strong> 9:30 AM to 12:30 PM<br><strong>Venue:</strong> <a href=\"#map\">Dharmaram College</a>, Christ University Campus, Bangalore.</p>\n<p></p>",
+            "created_at": "2012-09-13T09:34:04.043836Z",
+            "description": "One can learn about the following by attending the lecture: 1. Open sources of geodata 2. Tools to process such data 3. Indexing them to build a simple location-enabled search engine",
+            "is_published": true,
+            "name": "workshop-sourcing-processing",
+            "properties": {
+                "list": "workshops-list",
+                "map": "venue-map",
+                "mapmarker": "dvk"
+            },
+            "published_at": "2012-09-13T09:37:46.526243Z",
+            "revision_created_at": "2012-09-13T09:37:35.264356Z",
+            "revision_updated_at": "2012-09-13T09:37:35.264375Z",
+            "template": "eventlist.html",
+            "title": "Sourcing, processing, and indexing location data for search",
+            "type": "page",
+            "updated_at": "2012-09-13T09:37:46.532193Z",
+            "userid": "-P6-BovlQICyQb0dIvZ3vw",
+            "uuid": "DrKpqTIPTXyH1gjwYD1W3w"
+        },
+        {
+            "created_at": "2012-09-13T09:01:18.861315Z",
+            "items": [
+                [
+                    "startupcentre",
+                    "Chennai Meetup",
+                    "",
+                    ""
+                ],
+                [
+                    "amiworks",
+                    "Pune Data Hacknight",
+                    "",
+                    ""
+                ]
+            ],
+            "name": "workshops-list",
+            "properties": {},
+            "published_at": "2012-09-13T09:01:18.862091Z",
+            "title": "Workshops",
+            "type": "list",
+            "updated_at": "2012-09-13T09:05:10.454601Z",
+            "userid": "-P6-BovlQICyQb0dIvZ3vw",
+            "uuid": "40yveiY2RjOHIHBjE50wOw"
         }
     ],
     "website": "cartonama"
