@@ -20,7 +20,7 @@
     <div class="span1 funnel-comments"><i class="icon-comments"></i></div>
     <div class="span1 funnel-votes">+1</div>
   </li>
-  {% for proposal in node.confirmed() -%}
+  {% for proposal in node.proposals() -%}
     <li class="row-fluid item" data-section="{{ proposal['section_name'] }}" data-confirmed="{{ proposal['confirmed'] }}">
       <div class="span6 funnel-title"><a target="_blank" href="{{ proposal['url'] }}" title="{{ proposal['title'] }}">{{ proposal['title'] }}</a></div>
       <div class="span3 funnel-by">{{ proposal['proposer'] }}</div>
